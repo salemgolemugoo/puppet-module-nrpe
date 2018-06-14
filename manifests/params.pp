@@ -133,6 +133,7 @@ class nrpe::params {
       ]
     }
     default:   {
+      notify {"Bla bla we are here"}
     }
   }
 
